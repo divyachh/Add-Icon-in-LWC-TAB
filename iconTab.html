@@ -1,0 +1,20 @@
+<template>
+      <lightning-card>
+           <h3 slot="title">
+            <lightning-icon icon-name="utility:connected_apps" size="small"></lightning-icon>
+            Tab Example with Icon
+        </h3>
+        <lightning-tabset>
+            <lightning-tab label="Contact Information" icon-name={contactIcon}>
+                <lightning-input label="Name"> </lightning-input>
+                <lightning-input label="Email"> </lightning-input>
+                <lightning-input label="Phone"> </lightning-input>
+            </lightning-tab>
+            <lightning-tab label="Contact Address" icon-name={addressIcon}>
+                 <lightning-input label="Address1"> </lightning-input>
+                 <lightning-input label="Address2"> </lightning-input>
+                 <lightning-input label="Zip"> </lightning-input>
+            </lightning-tab>
+        </lightning-tabset>
+      </lightning-card>
+</template>
